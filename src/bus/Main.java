@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Bus bus = new Bus(1);
+        Bus bus = new Bus(sc.nextInt());
         System.out.println("------승객탑승------");
         bus.setPassenger(sc.nextInt());
         System.out.println("------주유량------");
